@@ -52,7 +52,6 @@ int convertToCharacter(FILE *input, FILE *output)  //output is character file.
             break;
         }
     }
-    printf("%s\n", buff);
     splitCharacter(buff, output);    
     return 0;
 }
